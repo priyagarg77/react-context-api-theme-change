@@ -1,0 +1,25 @@
+.list-group-item-dark {
+  color: #bbbbbb;
+  background-color: darkslategrey;
+  border: 1px solid darkslategrey;
+}
+
+.list-group a {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+.list-group a:hover,
+.list-group-item:hover a {
+  color: #055160;
+  text-decoration: none;
+}
+
+.list-group-item.active,
+.list-group-item-dark.list-group-item-action:focus,
+.list-group-item-dark.list-group-item-action:hover {
+  color: #055160;
+  background-color: #cff4fc;
+  border-color: #cff4fc;
+  border-radius: 0;
+}
